@@ -1,0 +1,51 @@
+{
+  "projects": {
+    "proj_e9c33554c377": {
+      "id": "proj_e9c33554c377",
+      "name": "My Game",
+      "email": "test@test.com",
+      "apiKey": "mde_8cb9557d572eb6afde33cfec9c1121eae7af40b1",
+      "createdAt": "2026-03-28T11:00:08.904Z",
+      "features": {
+        "saveData": true,
+        "leaderboards": true,
+        "antiCheat": false,
+        "discord": true
+      },
+      "webhookUrl": "",
+      "webhookEvents": {
+        "playerJoin": true,
+        "playerLeave": false,
+        "cheatFlag": true,
+        "leaderboardRecord": true
+      },
+      "anticheatThresholds": {
+        "maxCoinsPerMin": 500,
+        "maxXpPerMin": 1000,
+        "maxSpeed": 32,
+        "action": "log"
+      }
+    }
+  },
+  "players": {
+    "proj_e9c33554c377": {
+      "Salah99": {
+        "coins": 500,
+        "level": 7,
+        "player": "Salah99",
+        "lastSaved": "2026-03-28T11:01:02.581Z",
+        "online": true
+      }
+    }
+  },
+  "leaderboards": {},
+  "flags": [],
+  "logs": [
+    {
+      "projectId": "proj_e9c33554c377",
+      "type": "save",
+      "msg": "Salah99 data saved",
+      "time": "2026-03-28T11:01:02.582Z"
+    }
+  ]
+}
